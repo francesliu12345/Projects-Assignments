@@ -1,0 +1,93 @@
+header {
+    background-color: #333;
+    padding: 50px;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    top: 90px;
+    line-height: 1.5;
+	box-sizing: border-box;
+}
+
+section {
+    padding: 20px;
+    width: 100%;
+    height: 70px;
+    background-color: #5AA7A3;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    top: 180px;
+	box-sizing: border-box;
+}
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 170px;
+
+}
+
+.gallery{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.img-box{
+    width: 150px;
+	height: 550px;
+	margin: 10px;
+	border-radius: 20px;
+	background: url(../images/index2.jpg);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	transition: width 0.5s;   
+}
+.img-box:nth-child(2){
+    background: url(../images/index3.png);
+    background-size: cover;
+	background-position: center;
+}
+.img-box:nth-child(3){
+    background: url(../images/index4.png);
+    background-size: cover;
+	background-position: center;
+}
+.img-box:nth-child(4){
+    background: url(../images/index5.jpg);
+    background-size: cover;
+	background-position: center;
+}
+
+
+.img-box h3{
+    background-color: aliceblue;
+    border-radius: 10px;
+    color: black;
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    opacity: 100;
+    transition: bottom 0.5s, opacity 0.5s;
+}
+
+.img-box:hover{
+    width: 900px;
+    cursor: pointer;
+}
+
+.img-box:hover h3{
+    opacity: 1;
+    bottom: 25px;
+}

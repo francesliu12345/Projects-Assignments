@@ -1,0 +1,125 @@
+header {
+    box-sizing: border-box;
+    background-color: #333;
+    padding: 50px;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    top: 90px;
+    line-height: 1.5;
+}
+
+.section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+
+
+.plan1-container,
+.plan2-container,
+.plan3-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    
+    border-radius: 0.5rem;
+    margin: 20px;
+    width: 200px;
+    background-color: #f7f0f0;
+    margin-top: 15%;
+}
+
+.plan-upper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    text-transform: uppercase;
+    line-height: 1.625;
+}
+
+
+.plan-middle-title
+.plan2-middle-title{
+    text-align: center;
+    font-weight: 600;
+}
+
+.plan-text1,
+.plan2-text1{
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.plan-text2,
+.plan2-text2{
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.plan-text3,
+.plan2-text3{
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    color:blueviolet
+}
+
+.plan2-text1,
+.plan2-text2,
+.plan2-text3{
+    color: white;
+}
+
+.plan-middle-title{
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: 0.025rem;
+    text-align: center;
+}
+
+.plan-middle ul,
+.plan2-middle ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.plan-middle ul li,
+.plan2-middle ul li{
+    margin: 10px;
+    text-align: center;
+    list-style: none;
+}
+
+.plan2-middle{
+    color: white;
+}
+
+.plan-button1,
+.plan-button2,
+.plan-button3{
+    color: white;
+    padding: 10px 50px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: 700px;
+    width: 100px;
+    text-align: center;
+    box-shadow: 0 5px #99a665;
+    background-color: #42bd97;
+}
+
+
+
+
+
+
