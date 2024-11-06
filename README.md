@@ -1,4 +1,3 @@
-I am a student studying in Weltec. This is my second yesr or Bachelor of IT.
 
 The content in this repository is the projects/assignments finished in collgee.
 
